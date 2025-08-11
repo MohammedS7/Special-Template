@@ -332,7 +332,7 @@
   max-width: 100%;
   animation: up-and-down 5s linear infinite;
 }
-@media (max-width: 991px) {
+@media (max-width: 767px) {
   .landing .image {
     display: none;
   }
@@ -1596,3 +1596,4 @@ footer .copyright {
   }
 }
 /* End Animation */
+
