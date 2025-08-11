@@ -290,6 +290,13 @@
   min-height: calc(100vh - 72px);
   display: flex;
 }
+@media (max-width: 991px) {
+    .landing .container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
 .landing .text {
   flex: 1;
   margin: 150px auto 0;
@@ -1596,4 +1603,5 @@ footer .copyright {
   }
 }
 /* End Animation */
+
 
