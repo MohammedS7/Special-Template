@@ -1534,6 +1534,35 @@ footer .copyright {
 }
 /* End Footer */
 
+/* Start Scroll Up Button */
+.up-btn {
+  position: fixed;
+  bottom: 50px;
+  right: 40px;
+  width: 45px;
+  border-radius: 50%;
+  height: 45px;
+  background-color: var(--main-color);
+  color: #fff;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  transition: var(--main-transition);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
+  z-index: 100;
+}
+.up-btn:hover {
+  background-color: var(--main-color-alt);
+}
+.display-btn {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+/* End Scroll Up Button */
+
 /* Start Animation */
 @keyframes up-and-down {
   0%,
@@ -1603,5 +1632,6 @@ footer .copyright {
   }
 }
 /* End Animation */
+
 
 
